@@ -28,12 +28,12 @@ export default function Navbar({ ctaLabel = 'Shop Now', ctaTo = '/products' }) {
         aria-label="Main navigation"
       >
         <div className="navbar-inner">
-          <Link to="/" className="navbar-brand" aria-label="ClearGaze — home">
+          <Link to="/" className="navbar-brand" aria-label="Sadana Opticals — home">
             <div className="brand-logo" aria-hidden="true">
               <BrandLogo full />
             </div>
             <span className="brand-name">
-              Clear<span>Gaze</span>
+              Sadana <span>Opticals</span>
             </span>
           </Link>
 

@@ -27,7 +27,7 @@ export default function ProductsPage() {
   const [sortVal, setSortVal] = useState('featured');
 
   useEffect(() => {
-    document.title = 'Shop All Eyewear | ClearGaze — Sunglasses, Frames & Computer Glasses';
+    document.title = 'Shop All Eyewear | Sadana Opticals — Sunglasses, Frames & Computer Glasses';
   }, []);
 
   useEffect(() => {

@@ -32,7 +32,7 @@ export default function HomePage() {
   const featured = getFeaturedProducts();
 
   useEffect(() => {
-    document.title = 'ClearGaze | Premium Eyewear & Designer Frames in India';
+    document.title = 'Sadana Opticals | Premium Eyewear in Jamshedpur';
   }, []);
 
   return (
@@ -57,7 +57,7 @@ export default function HomePage() {
                 Explore Collection
               </Link>
               <a href="#why-us" className="btn btn-ghost-white btn-lg">
-                Why ClearGaze
+                Why Sadana Opticals
               </a>
             </div>
             <div className="hero-stats" role="list">
@@ -80,7 +80,7 @@ export default function HomePage() {
             <div className="hero-img-wrap">
               <img
                 src="https://placehold.co/800x600/1B2B3A/C9A84C?text=Premium+Eyewear+Collection"
-                alt="ClearGaze premium eyewear collection — assorted designer frames in gold, black, and tortoise-shell displayed on a dark velvet surface"
+                alt="Sadana Opticals premium eyewear collection — assorted designer frames displayed in store"
                 width="800"
                 height="600"
               />
@@ -130,10 +130,10 @@ export default function HomePage() {
         <div className="container">
           <div className="section-header">
             <span className="section-label" style={{ color: 'var(--color-accent)' }}>
-              Why ClearGaze
+              Why Sadana Opticals
             </span>
             <h2 className="section-title" id="why-heading" style={{ color: 'white' }}>
-              The ClearGaze Difference
+              The Sadana Opticals Difference
             </h2>
             <p className="section-subtitle" style={{ color: 'rgba(255,255,255,.6)' }}>
               Every pair we sell meets strict quality standards — because your vision deserves the best.
@@ -188,7 +188,7 @@ export default function HomePage() {
               What Our Customers Say
             </h2>
             <p className="section-subtitle">
-              Over 50,000 happy customers across India trust ClearGaze for their everyday eyewear.
+              Trusted by customers across Jamshedpur and beyond for quality eyewear every day.
             </p>
           </div>
           <div className="testi-grid">

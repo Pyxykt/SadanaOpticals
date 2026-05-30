@@ -13,7 +13,7 @@ const FAQS = [
   },
   {
     q: 'How long does delivery take?',
-    a: 'Standard delivery takes 3–5 business days across India. Express 24-hour delivery is available for Mumbai, Delhi, and Bengaluru at a nominal charge.',
+    a: 'Standard delivery takes 3–5 business days across India. Local pickup is available at our Jamshedpur store on G.P Road, Chowk Bazar, Jugsalai.',
   },
   {
     q: 'Are your lenses genuinely UV400?',
@@ -26,7 +26,7 @@ export default function ContactPage() {
   const [sending, setSending] = useState(false);
 
   useEffect(() => {
-    document.title = 'Contact Us | ClearGaze — Eyewear Expert Support';
+    document.title = 'Contact Us | Sadana Opticals — Eyewear Expert Support';
   }, []);
 
   const handleSubmit = (e) => {
@@ -73,9 +73,9 @@ export default function ContactPage() {
                   <div>
                     <div className="contact-row-label">Store Address</div>
                     <address className="contact-row-value" style={{ fontStyle: 'normal' }}>
-                      12, Linking Road, Bandra West
+                      G.P Road, Chowk Bazar, Jugsalai
                       <br />
-                      Mumbai, Maharashtra 400050
+                      Jamshedpur 831005
                     </address>
                   </div>
                 </div>
@@ -87,8 +87,8 @@ export default function ContactPage() {
                   <div>
                     <div className="contact-row-label">Phone</div>
                     <div className="contact-row-value">
-                      <a href="tel:+919876543210" style={{ color: 'inherit' }}>
-                        +91 98765 43210
+                      <a href="tel:+917004400583" style={{ color: 'inherit' }}>
+                        7004400583
                       </a>
                     </div>
                   </div>
@@ -101,8 +101,8 @@ export default function ContactPage() {
                   <div>
                     <div className="contact-row-label">Email</div>
                     <div className="contact-row-value">
-                      <a href="mailto:hello@cleargaze.in" style={{ color: 'inherit' }}>
-                        hello@cleargaze.in
+                      <a href="mailto:Puneet.eye@gmail.com" style={{ color: 'inherit' }}>
+                        Puneet.eye@gmail.com
                       </a>
                     </div>
                   </div>
@@ -125,16 +125,16 @@ export default function ContactPage() {
 
               <h3 style={{ marginBottom: '1rem', fontSize: '1rem' }}>Follow Us</h3>
               <div className="social-links" aria-label="Social media profiles">
-                <a href="#" className="social-btn" aria-label="Follow ClearGaze on Instagram">
+                <a href="#" className="social-btn" aria-label="Follow Sadana Opticals on Instagram">
                   📸
                 </a>
-                <a href="#" className="social-btn" aria-label="Follow ClearGaze on Facebook">
+                <a href="#" className="social-btn" aria-label="Follow Sadana Opticals on Facebook">
                   👍
                 </a>
-                <a href="#" className="social-btn" aria-label="Follow ClearGaze on Twitter / X">
+                <a href="#" className="social-btn" aria-label="Follow Sadana Opticals on Twitter / X">
                   🐦
                 </a>
-                <a href="#" className="social-btn" aria-label="Watch ClearGaze on YouTube">
+                <a href="#" className="social-btn" aria-label="Watch Sadana Opticals on YouTube">
                   ▶️
                 </a>
               </div>
@@ -202,7 +202,7 @@ export default function ContactPage() {
                     id="phone"
                     name="phone"
                     className="form-input"
-                    placeholder="+91 98765 43210"
+                    placeholder="7004400583"
                     autoComplete="tel"
                   />
                 </div>

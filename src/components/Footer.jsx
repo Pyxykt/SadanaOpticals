@@ -9,7 +9,7 @@ export default function Footer({ variant = 'full' }) {
     e.preventDefault();
     const input = e.target.querySelector('.newsletter-input');
     if (input?.value.trim()) {
-      showToast('Subscribed! Welcome to ClearGaze.');
+      showToast('Subscribed! Welcome to Sadana Opticals.');
       input.value = '';
     }
   };
@@ -19,12 +19,12 @@ export default function Footer({ variant = 'full' }) {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <Link to="/" className="navbar-brand" aria-label="ClearGaze home">
+            <Link to="/" className="navbar-brand" aria-label="Sadana Opticals home">
               <div className="brand-logo" aria-hidden="true">
                 <BrandLogo />
               </div>
               <span className="brand-name">
-                Clear<span>Gaze</span>
+                Sadana <span>Opticals</span>
               </span>
             </Link>
             <p>
@@ -33,13 +33,13 @@ export default function Footer({ variant = 'full' }) {
                 : 'Premium eyewear crafted for every face and every lifestyle.'}
             </p>
             <div className="social-links" aria-label="Social media links">
-              <a href="#" className="social-btn" aria-label="Follow ClearGaze on Instagram">
+              <a href="#" className="social-btn" aria-label="Follow Sadana Opticals on Instagram">
                 📸
               </a>
-              <a href="#" className="social-btn" aria-label="Follow ClearGaze on Facebook">
+              <a href="#" className="social-btn" aria-label="Follow Sadana Opticals on Facebook">
                 👍
               </a>
-              <a href="#" className="social-btn" aria-label="Follow ClearGaze on Twitter">
+              <a href="#" className="social-btn" aria-label="Follow Sadana Opticals on Twitter">
                 🐦
               </a>
             </div>
@@ -137,7 +137,7 @@ export default function Footer({ variant = 'full' }) {
         </div>
 
         <div className="footer-bottom">
-          <p>© 2025 ClearGaze. All rights reserved.</p>
+          <p>© 2025 Sadana Opticals. All rights reserved.</p>
           <nav className="footer-bottom-links" aria-label="Legal">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>

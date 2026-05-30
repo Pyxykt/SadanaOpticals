@@ -27,9 +27,9 @@ export default function ProductDetailPage() {
 
   useEffect(() => {
     if (product) {
-      document.title = `${product.name} | ClearGaze`;
+      document.title = `${product.name} | Sadana Opticals`;
     } else {
-      document.title = 'Product Detail | ClearGaze';
+      document.title = 'Product Detail | Sadana Opticals';
     }
   }, [product]);
 

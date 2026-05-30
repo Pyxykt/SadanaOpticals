@@ -1,6 +1,6 @@
 # SadanaOpticals
 
-ClearGaze eyewear storefront (React + Vite) at the repo root.
+Sadana Opticals eyewear storefront (React + Vite) at the repo root.
 
 ## Scripts
 

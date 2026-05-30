@@ -1,5 +1,5 @@
 /**
- * ClearGaze — Product Data
+ * Sadana Opticals — Product Data
  * Source of truth: data/products.xlsx
  * To regenerate this file from Excel, run: node scripts/generate-data.js
  */
