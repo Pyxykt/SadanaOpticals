@@ -58,16 +58,6 @@ export default function Footer({ variant = 'full' }) {
                   Eyeglasses
                 </Link>
               </li>
-              <li>
-                <Link to="/products?cat=Computer+Glasses" className="footer-link">
-                  Computer Glasses
-                </Link>
-              </li>
-              <li>
-                <Link to="/products?cat=Sports" className="footer-link">
-                  Sports Eyewear
-                </Link>
-              </li>
               {variant === 'full' && (
                 <li>
                   <Link to="/products" className="footer-link">
@@ -137,7 +127,7 @@ export default function Footer({ variant = 'full' }) {
         </div>
 
         <div className="footer-bottom">
-          <p>© 2025 Sadana Opticals. All rights reserved.</p>
+          <p>© 2026 Sadana Opticals. All rights reserved.</p>
           <nav className="footer-bottom-links" aria-label="Legal">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>

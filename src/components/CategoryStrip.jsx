@@ -4,8 +4,6 @@ const CATEGORIES = [
   { id: 'All', linkLabel: '👓 All Eyewear', chipLabel: '👓 All' },
   { id: 'Sunglasses', linkLabel: '🕶️ Sunglasses', chipLabel: '🕶️ Sunglasses' },
   { id: 'Eyeglasses', linkLabel: '🔍 Eyeglasses', chipLabel: '🔍 Eyeglasses' },
-  { id: 'Computer Glasses', linkLabel: '💻 Computer Glasses', chipLabel: '💻 Computer Glasses' },
-  { id: 'Sports', linkLabel: '🏃 Sports', chipLabel: '🏃 Sports' },
 ];
 
 export default function CategoryStrip({ mode = 'links', activeCat, onSelect }) {

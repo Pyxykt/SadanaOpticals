@@ -27,7 +27,7 @@ export default function ProductsPage() {
   const [sortVal, setSortVal] = useState('featured');
 
   useEffect(() => {
-    document.title = 'Shop All Eyewear | Sadana Opticals — Sunglasses, Frames & Computer Glasses';
+    document.title = 'Shop All Eyewear | Sadana Opticals — Sunglasses & Frames';
   }, []);
 
   useEffect(() => {
@@ -113,7 +113,7 @@ export default function ProductsPage() {
 
               <fieldset className="filter-group">
                 <legend className="filter-group-label">Category</legend>
-                {['Sunglasses', 'Eyeglasses', 'Computer Glasses', 'Sports'].map((cat) => (
+                {['Sunglasses', 'Eyeglasses'].map((cat) => (
                   <label key={cat} className="filter-option">
                     <input
                       type="checkbox"

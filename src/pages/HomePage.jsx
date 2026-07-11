@@ -42,7 +42,7 @@ export default function HomePage() {
         <div className="hero-inner container">
           <div className="hero-content">
             <div className="hero-badge" aria-label="New arrivals available">
-              ✦ New Collection 2025
+              ✦ New Collection 2026
             </div>
             <h1 className="hero-title" id="hero-heading">
               See the World in
@@ -50,7 +50,7 @@ export default function HomePage() {
             </h1>
             <p className="hero-desc">
               Premium eyewear crafted for every face and every occasion. UV400 protection, precision optics, and
-              timeless style — all starting at ₹1,499.
+              timeless style — all starting at ₹999.
             </p>
             <div className="hero-actions">
               <Link to="/products" className="btn btn-primary btn-lg">
@@ -79,7 +79,7 @@ export default function HomePage() {
           <div className="hero-visual" aria-hidden="true">
             <div className="hero-img-wrap">
               <img
-                src="https://placehold.co/800x600/1B2B3A/C9A84C?text=Premium+Eyewear+Collection"
+                src="https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-e14168-c4-eyeglasses_vincent-chase-vc-e14168-c4-eyeglasses_G_4670.jpg"
                 alt="Sadana Opticals premium eyewear collection — assorted designer frames displayed in store"
                 width="800"
                 height="600"
